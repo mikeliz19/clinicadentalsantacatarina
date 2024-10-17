@@ -2128,7 +2128,7 @@ textarea.form-control {
 }
 
 #ftco-loader .circular {
-  animation: loader-rotate 2s linear infinite;
+  animation: loader-rotate 5s linear infinite;
   position: absolute;
   left:  calc(50% - 24px);
   top:  calc(50% - 24px);
@@ -2139,7 +2139,7 @@ textarea.form-control {
 #ftco-loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
-  animation: loader-dash 1.5s ease-in-out infinite;
+  animation: loader-dash 5s ease-in-out infinite;
   stroke-linecap: round;
 }
 
